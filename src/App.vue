@@ -6,14 +6,10 @@ import DescriptionItem from './components/DescriptionItem.vue'
 </script>
 
 <template>
-  <div data-theme="lemonade">
+  <div class="min-h-screen">
     <div class="min-h-screen">
       <NavbarItem />
       <DescriptionItem />
-      <nav>
-        <!-- <RouterLink to="/"></RouterLink>
-        <RouterLink to="/about"></RouterLink> -->
-      </nav>
       <FooterItem />
     </div>
   </div>

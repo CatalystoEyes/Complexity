@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script>
+import App from '@/App.vue'
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <App />
+  </main>
 </template>
