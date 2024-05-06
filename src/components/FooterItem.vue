@@ -17,7 +17,10 @@ import { RouterLink } from 'vue-router'
             <div class="ml-1">
               <p class="py-3 text-lg flex w-8">
                 <img src="/Telegram.svg" alt="" />
-                <a href="https://t.me/CatalystoEyes" target="_blank" class="mt-0.5 ml-1.5"
+                <a
+                  href="https://t.me/CatalystoEyes"
+                  target="_blank"
+                  class="mt-0.5 ml-1.5 link link-hover"
                   >Telegram</a
                 >
               </p>
@@ -26,13 +29,16 @@ import { RouterLink } from 'vue-router'
                 <a
                   href="https://www.reddit.com/user/CatalystoEyes/"
                   target="_blank"
-                  class="mt-0.5 ml-1.5"
+                  class="mt-0.5 ml-1.5 link link-hover"
                   >Reddit</a
                 >
               </p>
               <p class="py-3 text-lg flex w-8">
                 <img src="/GitHub.svg" alt="" />
-                <a href="https://github.com/CatalystoEyes" target="_blank" class="mt-0.5 ml-1.5"
+                <a
+                  href="https://github.com/CatalystoEyes"
+                  target="_blank"
+                  class="mt-0.5 ml-1.5 link link-hover"
                   >Github</a
                 >
               </p>

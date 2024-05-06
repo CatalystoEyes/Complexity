@@ -21,16 +21,16 @@ import { RouterLink } from 'vue-router'
             <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
             <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
               <li>
-                <a><RouterLink to="/users">Find people</RouterLink></a>
+                <RouterLink to="/users">Find people</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/blog">Find blog</RouterLink></a>
+                <RouterLink to="/blog">Find blog</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/contests">Explore contests</RouterLink></a>
+                <RouterLink to="/contests">Explore contests</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/problems">Explore problems</RouterLink></a>
+                <RouterLink to="/problems">Explore problems</RouterLink>
               </li>
             </ul>
           </div>

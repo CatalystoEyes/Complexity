@@ -7,12 +7,8 @@ import DescriptionItem from './components/DescriptionItem.vue'
 
 <template>
   <div class="min-h-screen">
-    <div class="min-h-screen">
-      <NavbarItem />
-      <DescriptionItem />
-      <FooterItem />
-    </div>
+    <NavbarItem />
+    <RouterView />
+    <FooterItem />
   </div>
-
-  <RouterView />
 </template>

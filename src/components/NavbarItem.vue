@@ -14,22 +14,22 @@ import { RouterLink } from 'vue-router'
     </div>
     <div class="flex-none mb-2">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Link</a></li>
+        <li><RouterLink to="/recent">History</RouterLink></li>
         <li>
           <details>
             <summary>Functions</summary>
             <ul class="p-2 bg-base-100 rounded-t-none">
               <li>
-                <a><RouterLink to="/users">Users</RouterLink></a>
+                <RouterLink to="/users">Users</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/blog">Blog</RouterLink></a>
+                <RouterLink to="/blog">Blog</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/contests">Contests</RouterLink></a>
+                <RouterLink to="/contests">Contests</RouterLink>
               </li>
               <li>
-                <a><RouterLink to="/problems">Problems</RouterLink></a>
+                <RouterLink to="/problems">Problems</RouterLink>
               </li>
             </ul>
           </details>
