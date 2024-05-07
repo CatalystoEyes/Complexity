@@ -1,9 +1,31 @@
+<script setup>
+import { useForm } from 'vee-validate'
+import { toTypedSchema } from '@vee-validate/zod'
+import { z } from 'zod'
+
+const { errors, defineField } = useForm({
+  validationSchema: toTypedSchema(
+    z.object({
+      problems: z.string().min(3)
+    })
+  )
+})
+
+const [problems, problemsAttrs] = defineField('problems')
+</script>
+
 <template>
   <div>
     <h1 class="text-5xl text-center">Problems</h1>
     <div class="w-1/3 mt-3 m-auto">
       <label class="input input-bordered flex items-center gap-2">
-        <input type="text" class="grow" placeholder="Search" />
+        <input
+          type="text"
+          class="grow"
+          placeholder="Search"
+          v-model="problems"
+          v-bind="problemsAttrs"
+        />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
@@ -17,6 +39,7 @@
           />
         </svg>
       </label>
+      <div class="text-red-500 ml-1">{{ errors.problems }}</div>
     </div>
   </div>
 </template>

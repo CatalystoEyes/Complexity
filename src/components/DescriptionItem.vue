@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router'
         <div class="drawer">
           <input id="my-drawer" type="checkbox" class="drawer-toggle" />
           <div class="drawer-content">
-            <label for="my-drawer" class="btn drawer-button">Get started</label>
+            <label for="my-drawer" class="btn">Get started</label>
           </div>
           <div class="drawer-side">
             <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
