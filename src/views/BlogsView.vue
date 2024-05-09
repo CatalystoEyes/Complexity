@@ -87,11 +87,14 @@ const { isPending, isError, data, error } = useQuery({
         <p>Title - {{ data.title }}</p>
         <p>ID - {{ data.id }}</p>
         <p>Language - {{ data.originalLocale }}</p>
-        <p>
+        <p v-if="data.authorHandle">
           Author -
-          <a href="https://codeforces.com/profile/${data.authorHandle}">{{ data.authorHandle }}</a>
+          <a :href="'https://codeforces.com/profile/' + data.authorHandle">{{
+            data.authorHandle
+          }}</a>
         </p>
-        <a href="https://codeforces.com/blog/entry/${data.id}">Link</a>
+        <p v-else>Author - Unknown</p>
+        <a :href="'https://codeforces.com/blog/entry/' + data.id">Link</a>
       </div>
     </div>
   </div>

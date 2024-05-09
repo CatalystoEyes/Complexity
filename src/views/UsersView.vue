@@ -82,7 +82,7 @@ const { isPending, isError, data, error } = useQuery({
       <span v-if="isPending">Loading...</span>
       <span v-else-if="isError">Error: {{ error.message }}</span>
       <div v-if="data">
-        <img src="${data.titlePhoto}" alt="" />
+        <img :src="data.titlePhoto" alt="" />
         <p>Username - {{ data.value }}</p>
         <p>Friends count - {{ data.friendOfCount }}</p>
         <p>Contribution - {{ data.contribution }}</p>
