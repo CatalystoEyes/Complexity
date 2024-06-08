@@ -51,7 +51,7 @@ const { isPending, isError, data, error } = useQuery({
 </script>
 
 <template>
-  <div>
+  <div class="mt-28">
     <h1 class="text-5xl text-center">Contests</h1>
     <div class="w-1/3 mt-3 m-auto">
       <label class="input input-bordered flex items-center gap-2">

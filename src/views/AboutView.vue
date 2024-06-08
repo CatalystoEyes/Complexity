@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-16">
     <h1 class="text-5xl text-center">About us</h1>
     <div class="w-1/2 m-auto mt-4">
       <div class="chat chat-start">

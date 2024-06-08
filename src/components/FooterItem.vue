@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="absolute bottom-0 w-full">
+  <div class="footer bg-base-200 absolute bottom-0 w-full">
     <footer class="footer footer-center p-6 bg-base-200 text-base-content rounded">
       <nav class="grid grid-flow-col gap-8">
         <a class="link link-hover"><RouterLink to="/about">About us</RouterLink></a>
@@ -16,12 +16,12 @@ import { RouterLink } from 'vue-router'
             <h3 class="font-bold text-2xl mb-1">Contacts</h3>
             <div class="ml-1">
               <p class="py-3 text-lg flex w-8">
-                <img src="/Telegram.svg" alt="" />
+                <img src="/codeforces.png" alt="" />
                 <a
-                  href="https://t.me/CatalystoEyes"
+                  href="https://codeforces.com/profile/Catalysto"
                   target="_blank"
                   class="mt-0.5 ml-1.5 link link-hover"
-                  >Telegram</a
+                  >Codeforces</a
                 >
               </p>
               <p class="py-3 text-lg flex w-8">

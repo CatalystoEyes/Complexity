@@ -5,5 +5,5 @@ import DescriptionItem from '../components/DescriptionItem.vue'
 </script>
 
 <template>
-  <div><DescriptionItem /></div>
+  <div class="h-full flex justify-center items-center"><DescriptionItem /></div>
 </template>

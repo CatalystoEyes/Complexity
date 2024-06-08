@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="navbar bg-base-100">
+  <div class="navbar fixed top-0 w-full z-10">
     <div class="flex-1">
       <input
         type="checkbox"

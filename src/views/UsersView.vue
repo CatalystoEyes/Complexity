@@ -14,7 +14,6 @@ const { errors, defineField } = useForm({
     })
   )
 })
-
 const [users, usersAttrs] = defineField('users')
 
 const handleFormData = async (event) => {
@@ -53,7 +52,7 @@ const { isPending, isError, data, error } = useQuery({
 </script>
 
 <template>
-  <div>
+  <div class="mt-28">
     <h1 class="text-5xl text-center">Users</h1>
     <div class="w-1/3 mt-3 m-auto">
       <label class="input input-bordered flex items-center gap-2">
@@ -85,7 +84,7 @@ const { isPending, isError, data, error } = useQuery({
         <img :src="data.titlePhoto" alt="" />
         <p>Username - {{ data.value }}</p>
         <p>Friends count - {{ data.friendOfCount }}</p>
-        <p>Contribution - {{ data.contribution }}</p>
+        <p>Contributions - {{ data.contribution }}</p>
       </div>
     </div>
   </div>

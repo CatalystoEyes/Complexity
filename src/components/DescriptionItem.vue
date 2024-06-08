@@ -3,8 +3,8 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="hero">
-    <div class="hero-content text-center">
+  <div class="flex justify-center">
+    <div class="text-center">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold gradient-text pb-2">Complexity</h1>
         <p class="py-3">
@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router'
           <div class="drawer-content">
             <label for="my-drawer" class="btn">Get started</label>
           </div>
-          <div class="drawer-side">
+          <div class="drawer-side z-20">
             <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
             <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
               <li>
